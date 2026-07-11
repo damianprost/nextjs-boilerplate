@@ -132,7 +132,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="relative z-10 border-t border-slate-800 px-6 md:px-16 py-8 text-center text-slate-500 text-sm">
-        © 2026 TalentAI. Conectando personas y empresas con inteligencia artificial.
+        © 2026 JobMatch. Conectando personas y empresas con inteligencia artificial.
       </footer>
     </main>
   );
