@@ -1,17 +1,15 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white overflow-x-hidden">
-      {/* Fondo con efecto de luces */}
       <div className="fixed inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl"></div>
         <div className="absolute top-40 right-1/4 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl"></div>
       </div>
 
-      {/* Navbar */}
       <nav className="relative z-10 flex items-center justify-between px-6 md:px-16 py-6">
         <div className="flex items-center gap-2">
           <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-purple-500 to-cyan-400 flex items-center justify-center font-bold">
-            IA
+            JM
           </div>
           <span className="text-lg font-semibold tracking-tight">JobMatch</span>
         </div>
@@ -26,7 +24,6 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero */}
       <section className="relative z-10 flex flex-col items-center text-center px-6 pt-20 pb-28">
         <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-300 text-xs font-medium mb-6">
           ✦ Impulsado por inteligencia artificial
@@ -51,7 +48,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Cómo funciona */}
       <section className="relative z-10 px-6 md:px-16 py-16 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-6">
           {[
@@ -71,7 +67,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Para personas */}
       <section
         id="personas"
         className="relative z-10 px-6 md:px-16 py-20 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center"
@@ -100,7 +95,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Para empresas */}
       <section
         id="empresas"
         className="relative z-10 px-6 md:px-16 py-20 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center"
@@ -130,7 +124,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="relative z-10 border-t border-slate-800 px-6 md:px-16 py-8 text-center text-slate-500 text-sm">
         © 2026 JobMatch. Conectando personas y empresas con inteligencia artificial.
       </footer>
