@@ -13,7 +13,7 @@ export default function Home() {
           <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-purple-500 to-cyan-400 flex items-center justify-center font-bold">
             IA
           </div>
-          <span className="text-lg font-semibold tracking-tight">TalentAI</span>
+          <span className="text-lg font-semibold tracking-tight">JobMatch</span>
         </div>
         <div className="hidden md:flex items-center gap-8 text-sm text-slate-300">
           <a href="#personas" className="hover:text-white transition">Para personas</a>
