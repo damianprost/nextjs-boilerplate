@@ -1,3 +1,5 @@
+import GoogleLoginButton from './components/GoogleLoginButton'
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white overflow-x-hidden">
@@ -18,9 +20,7 @@ export default function Home() {
           <a href="#empresas" className="hover:text-white transition">Para empresas</a>
         </div>
         <div className="flex items-center gap-3">
-          <button className="text-sm px-4 py-2 rounded-full border border-slate-700 hover:border-slate-500 transition">
-            Iniciar sesión
-          </button>
+          <GoogleLoginButton />
         </div>
       </nav>
 
